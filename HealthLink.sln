@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthLink.API", "HealthLink.API\HealthLink.API.csproj", "{4617AEB3-47F2-4FB6-AA05-6F0A6556DEA5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthLink.WEB", "HealthLink.WEB\HealthLink.WEB.csproj", "{D275B8B0-91B7-4E9B-B0F8-BFD2CB473E40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4617AEB3-47F2-4FB6-AA05-6F0A6556DEA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4617AEB3-47F2-4FB6-AA05-6F0A6556DEA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4617AEB3-47F2-4FB6-AA05-6F0A6556DEA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4617AEB3-47F2-4FB6-AA05-6F0A6556DEA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D275B8B0-91B7-4E9B-B0F8-BFD2CB473E40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D275B8B0-91B7-4E9B-B0F8-BFD2CB473E40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D275B8B0-91B7-4E9B-B0F8-BFD2CB473E40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D275B8B0-91B7-4E9B-B0F8-BFD2CB473E40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0B7B0691-3C4C-4878-8088-C27AD829C6C4}
+	EndGlobalSection
+EndGlobal

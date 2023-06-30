@@ -1,0 +1,21 @@
+﻿
+@{
+}
+<style type="text/css">
+    .navbar-custom {
+        background-color: lightgreen;
+    }
+</style>
+
+<ul class="nav flex-column">
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-controller="User" asp-action="Status">Status</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" asp-area="" asp-controller="User" asp-action="Attachments">Your attachments</a>
+    </li>
+</ul>
+
+<h3>Hello, @ViewBag.Username</h3>
+
+

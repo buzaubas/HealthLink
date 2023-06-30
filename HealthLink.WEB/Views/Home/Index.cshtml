@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<style type="text/css">
+    .navbar-custom {
+        visibility: hidden;
+    }
+</style>
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to HealthLine</h1>
+    <form method="post" asp-controller="Home" asp-action="SignIn">
+        <input type="text" placeholder="Login" name="login"/>
+        <input type="password" placeholder="Password" name="password"/>
+        <input type="submit"/>
+    </form>
+    <br />
+    <a class="nav-link" asp-area="" asp-controller="Home" asp-action="CreateAccount">Create Account</a>
+</div>
